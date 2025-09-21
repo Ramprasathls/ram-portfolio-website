@@ -1,0 +1,34 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b1020;
+  --card: #121a2e;
+  --text: #e6e9f2;
+  --muted: #a7b0c0;
+  --accent: #6f7dff;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: var(--text);
+  background: radial-gradient(1200px 600px at 80% -20%, #2a2f52 0%, transparent 60%),
+              radial-gradient(800px 400px at 10% 10%, #1d2240 0%, transparent 60%),
+              var(--bg);
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  border: 1px solid rgba(255,255,255,0.08);
+  @apply rounded-2xl p-6;
+}
