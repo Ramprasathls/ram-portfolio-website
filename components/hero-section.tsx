@@ -7,18 +7,18 @@ export function HeroSection() {
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
             <img
-              src="/professional-headshot.png"
+              src="/professional-headshot.jpg"
               alt="Profile"
-              className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-primary/20 shadow-lg"
+              className="rounded-full mx-auto mb-6 border-4 border-primary/20 shadow-lg max-w-[200px] h-auto"
             />
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 text-balance">
-            Hi, I'm <span className="text-primary">Alex Johnson</span>
+            Hi, I'm <span className="text-primary">Ram Loganda</span>
           </h1>
 
           <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty">
-            Full-stack developer passionate about creating beautiful, functional web experiences that make a difference.
+            Technology Consultant and AI/Data Enthusiast passionate about solving pressing challenges that make a difference.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -8,13 +8,12 @@ export function AboutSection() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                I'm a passionate full-stack developer with over 5 years of experience building web applications that
-                solve real-world problems. I love turning complex ideas into simple, beautiful, and intuitive designs.
+                I’m a Technology Consultant and AI/Data Enthusiast with experience delivering enterprise-scale HR technology solutions
+ 		and now building expertise in data science and AI. I enjoy bridging business needs with innovative technical solutions.
               </p>
 
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or
-                enjoying the great outdoors with my camera in hand.
+                When I’m not working on projects, I spend time sketching, exploring new ideas, or hiking outdoors for inspiration.
               </p>
 
               <div className="flex flex-wrap gap-2">
@@ -29,11 +28,11 @@ export function AboutSection() {
               <ul className="space-y-3">
                 <li className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Open Source Contributions</span>
+                  <span>AI & Data Science Projects</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Photography & Travel</span>
+                  <span>Sketching & Creative Arts</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full"></div>
